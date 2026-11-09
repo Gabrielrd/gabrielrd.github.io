@@ -1,10 +1,130 @@
 <!DOCTYPE html>
-    <html>
-        <head>
-            <title>Site pessoal do Gabrielrd</title>
-        </head>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gabriel Rocha</title>
+    <meta
+      name="description"
+      content="Página pessoal de Gabriel Rocha: um pouco sobre mim, algumas experiências e contato."
+    />
+    <meta property="og:title" content="Gabriel Rocha" />
+    <meta
+      property="og:description"
+      content="Gosto de testar algumas coisas de vez em quando — código, apps, ideias."
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Source+Sans+3:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <p class="eyebrow">Página pessoal</p>
+        <h1>Gabriel Rocha</h1>
+        <p class="lede">
+          Não sou desenvolvedor de fato. De vez em quando gosto de testar
+          alguma coisa — um app, um site, uma ideia — só para ver no que dá.
+        </p>
+        <nav class="links" aria-label="Contato">
+          <a href="https://github.com/Gabrielrd">GitHub</a>
+          <a href="https://www.linkedin.com/in/gabrieldrocha/">LinkedIn</a>
+          <a href="mailto:gabriel.drumond@gmail.com">E-mail</a>
+        </nav>
+      </header>
 
-        <body>
-            <p>Página pessoal do Gabriel Rocha</p>
-        </body>
-    </html>
+      <main>
+        <section id="sobre">
+          <h2>Sobre</h2>
+          <p>
+            Esta página é um canto simples na internet. Quando bate a
+            curiosidade, mexo com Java, Angular, um pouco de iOS, C# ou o que
+            estiver na frente. Não é profissão: é hobby, estudo e tentativa.
+            Alguns desses testes acabam no GitHub; outros ficam no computador.
+          </p>
+        </section>
+
+        <section id="curriculo">
+          <h2>O que ando testando</h2>
+          <article class="block">
+            <h3>Ferramentas que já apareceram pelo caminho</h3>
+            <ul class="tags">
+              <li>Java</li>
+              <li>Spring</li>
+              <li>Angular</li>
+              <li>TypeScript</li>
+              <li>Next.js</li>
+              <li>PostgreSQL</li>
+              <li>C#</li>
+              <li>iOS</li>
+            </ul>
+          </article>
+          <article class="block">
+            <h3>Alguns experimentos</h3>
+            <ul class="work">
+              <li>
+                <a href="https://github.com/Gabrielrd/algamoney-ui-postgresql"
+                  >Algamoney UI</a
+                >
+                <span>Uma interface em Angular com PostgreSQL, para aprender o fluxo.</span>
+              </li>
+              <li>
+                <a href="https://github.com/Gabrielrd/demo_spring">demo_spring</a>
+                <span>Teste com Spring, só para ver como a API se comporta.</span>
+              </li>
+              <li>
+                <a href="https://github.com/Gabrielrd/Apps-IOS">Apps iOS</a>
+                <span>Brincadeiras nativas no iPhone.</span>
+              </li>
+              <li>
+                <a href="https://github.com/Gabrielrd/Cliente-ServerTCP"
+                  >Cliente-Server TCP</a
+                >
+                <span>Um chat em C# usando TCP, de curiosidade.</span>
+              </li>
+              <li>
+                <strong>Portal do condomínio</strong>
+                <span>
+                  Um sistema web de ocorrências, boletos, caixa e reserva de
+                  salão — ainda em testes.
+                </span>
+              </li>
+            </ul>
+          </article>
+        </section>
+
+        <section id="contato">
+          <h2>Contato</h2>
+          <p>Se quiser conversar, é por aqui.</p>
+          <ul class="contact">
+            <li>
+              <span>E-mail</span>
+              <a href="mailto:gabriel.drumond@gmail.com"
+                >gabriel.drumond@gmail.com</a
+              >
+            </li>
+            <li>
+              <span>LinkedIn</span>
+              <a href="https://www.linkedin.com/in/gabrieldrocha/"
+                >linkedin.com/in/gabrieldrocha</a
+              >
+            </li>
+            <li>
+              <span>GitHub</span>
+              <a href="https://github.com/Gabrielrd">github.com/Gabrielrd</a>
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <footer>
+        <p>Gabriel Rocha · <a href="https://gabrielrd.github.io">gabrielrd.github.io</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
